@@ -1,6 +1,4 @@
-//-----------------------------------------------------------------------------
-// Copyright 2020, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
+
 
 #ifndef ENGINE_MATH_MATRIX_H
 #define ENGINE_MATH_MATRIX_H
@@ -10,7 +8,7 @@
 namespace Azul
 {
 	//Align instances to 16 bytes for anonymous union data struct
-	class Matrix final : public Align16 
+	class Matrix final : public Align16Math
 	{
 	public:
 

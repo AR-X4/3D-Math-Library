@@ -1,6 +1,4 @@
-//-----------------------------------------------------------------------------
-// Copyright 2020, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
+
 
 #ifndef ENGINE_MATH_VECT_H
 #define ENGINE_MATH_VECT_H
@@ -8,12 +6,13 @@
 // Includes to handle SIMD register types
 #include <xmmintrin.h>
 #include <smmintrin.h> 
+#include "Align16Math.h"
 
 namespace Azul
 {
 	class Matrix;
 
-	class Vect final : public Align16
+	class Vect final : public Align16Math
 	{
 	public:
 
